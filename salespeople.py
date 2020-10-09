@@ -18,7 +18,7 @@ class Salesperson():
         commission = self.commission_rate * total_sales
         monthly_salary = self.base_salary / 12
 
-        return monthly_salary + commission
+        return round((monthly_salary + commission),2)
 
 
 class InternSalesperson(Salesperson):
